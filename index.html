@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap">
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>Seif El-Sayed | Portfolio</title>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html" class="logo"><i class="fa-solid fa-feather"></i></a>
+
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <ul>
+            <li><a href="#about"><i class="fa-solid fa-question"></i> About</a></li>
+            <li><a href="#skills"><i class="fa-solid fa-layer-group"></i> Skills</a></li>
+            <li><a href="#projects"><i class="fa-solid fa-code"></i> Projects</a></li>
+            <li><a href="#contact"><i class="fa-solid fa-paper-plane"></i> Contact</a></li>
+        </ul>
+    </nav>
+    <section class="hero-section" id="about">
+        <div class="container">
+            <div class="text">
+                <p>My name is__</p>
+                <h1>Seif El-Sayed Mohammed</h1>
+                <a href="assets/Seif_El-Sayed_CV.pdf" target="_blank" class="cv-btn">
+                    <i class="fa-solid fa-file-pdf"></i> View CV
+                </a>
+            </div>
+            <div class="image">
+                <img src="assets/profile.jpg" alt="seif pic" class="img">
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-section" id="skills">
+        <div class="skills-text">
+            <h1>Skills</h1>
+        </div>
+        <div class="skills-container">
+            <div class="card">
+                <i class="fa-brands fa-html5"></i>
+                <h1>HTML</h1>
+            </div>
+            <div class="card">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h1>CSS</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects-section" id="projects">
+        <div class="projects-text">
+            <h1>Projects</h1>
+        </div>
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="assets/profile.jpg" alt="project-img">
+                <h1>Landing Page</h1>
+                <div class="card-footer">
+                    <p>Live Demo</p>
+                    <p>Source Code</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/profile.jpg" alt="project-img">
+                <h1>Landing Page</h1>
+                <div class="card-footer">
+                    <p>Live Demo</p>
+                    <p>Source Code</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="contact-text">
+            <h1>Contact Me</h1>
+            <p>Get in touch with me</p>
+        </div>
+        <div class="contact-container">
+            <form action="mailto:seif.elsayed.official@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell me what you want..."></textarea>
+
+                <button type="submit">Send Message <i class="fa-solid fa-share"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/[username]" target="_blank" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="mailto:seif.elsayed.official@gmail.com" aria-label="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+            <p>&copy; 2025 Seif El-Sayed Mohammed. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
